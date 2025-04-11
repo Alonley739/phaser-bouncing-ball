@@ -1,5 +1,5 @@
-let WIDTH = 400;
-let HEIGHT = 300;
+let WIDTH = 800;
+let HEIGHT = 600;
 
 const config = {
     type: Phaser.AUTO,
@@ -40,5 +40,4 @@ function update() {
 
     if (ball.x >= WIDTH - ballSize / 2 || ball.x <= ballSize / 2) {
         xspeed *= -1;
-    }
-}
+    }}
